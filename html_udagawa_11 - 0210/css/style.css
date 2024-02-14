@@ -1,0 +1,386 @@
+/* ここから下に記載していく */
+/* ヘッダー */
+.top {
+    background-color: #fafafa;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 1200px;
+    left: 50%
+    }
+.top .logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.top .nav {
+    display: flex;
+}
+.top p {
+    display: block;
+    text-align: center;
+    margin: 50px 25px;
+}
+a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 21px;
+}
+/* body */
+.all {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #222222;
+    text-align: center;
+}
+
+/* メインビジュアル */
+.box1 {
+    position: relative;
+}
+.box1 img {
+    width: 1200px;
+}
+.message {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.message1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+.message2 {
+    color: white;
+    font-size: 32px;
+}
+
+/* about */
+.box2 h2 {
+    margin-bottom: 60px;
+}
+.box2 .about_narrative {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+/*黄色タイトル*/
+h1{
+    text-align: center;
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+/*黒色サブタイトル*/
+h2{
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 60px;
+}
+.narrative {
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #222222;
+    /* padding-bottom:80px; */
+}
+
+/* 写真４枚 */
+.box3 {
+    width: auto;
+    justify-content: center;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}
+.foto img {
+    width: 300px;
+}
+
+/* cource */
+.box4 {
+    padding-bottom: 60px;
+    background-color: white;
+    line-height: 30px;
+}
+/*黒色タイトル*/
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #222222;   
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.text {
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #222222;
+}
+
+/* 写真と説明　横並び×3 */
+.box5 {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+}
+.box5 img {
+    width: 600px;
+    /* 画像はインライン要素なのでblock化する */
+    display: block;
+}
+.box5 div {
+    width: 600px;
+}
+.box5 .right {
+    /* padding-top: 120px; */
+    /* padding-bottom: 120px; */
+    padding-left: 50px;
+    width: 480px;
+}
+.box5 .right p {
+    text-align: left;
+    margin: 0;
+    line-height: 27px;
+}
+
+.box6 {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+}
+.box6 img {
+    width: 600px;
+    display: block;
+}
+.box6 .left {
+    /* padding-top: 120px; */
+    /* padding-bottom: 120px; */
+    padding-right: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: right;
+}
+.box6 .left p {
+    text-align: left;
+    margin: 0;
+    line-height: 28px;
+}
+
+h4 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold
+}
+
+/* ニュース */
+.box8 {
+    /* padding-bottom: 30px; */
+    background-color: white;
+}
+.box9 {
+    width: 300px;
+    /* height: 200px; */
+}
+.date {
+    padding-top: 30px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+.box9 .text p {
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+}
+.diary {
+    display: flex;
+    gap: 30px;
+}
+.container_diary {
+    display: flex;
+    justify-content: center;
+}
+ /* MORE */
+.more {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #ffd61a;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.more:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+ /* アクセス */
+ /* 地図 */
+.map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 30%;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box11 {
+    background-color: #fafafa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box13 {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 50px;
+}
+.box13 dl {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box13 dt {
+    width: 200px;
+    display: block;
+    text-align: left;
+    }
+.box13 dd {
+    width: 400px;
+    text-align: left;
+}
+/* コンタクト */
+.box14 h2 {
+    margin-bottom: 60px;
+}
+.box14 .narrative {
+    padding-bottom: 70px;
+}
+.box14 p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* お問い合わせフォーム */
+.box15 {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.box15 dl {
+    width: 648px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid #bfbfbf;
+    border-bottom: 3px solid #bfbfbf;
+}
+.box15 dt {
+    width: 223px;
+    height: 51px;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    border-right: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    line-height: 51px;
+    }
+.box15 dd {
+    width: 400px;
+    text-align: left;
+    border-bottom: 2px solid #bfbfbf;
+}
+.box15 .trigger_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 159px;
+    line-height: 14px;
+    padding-right: 64px;
+    gap: 8px; 
+}
+.box15 .trigger {
+    width: 334px;
+    height: 35px;
+}
+.box15 .reason {
+    height: 133px;
+}
+.box15 .reason_check {
+    text-align: left;
+    margin: 12px 0 8px 12px;
+}
+.box15 .detail {
+    height: 98px;
+    border-bottom: 0px;
+}
+.box15 .detail_textarea {
+    height: 74px;
+}
+.box15 dd > input, select, textarea {
+    width: 328px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border: 1px solid #bfbfbf;
+}
+
+/* 送信ボタン */
+.send {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #ffd61a;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    font-size: 20px;
+    }
+.send:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+    
+.footer {
+    text-align: center;
+    background-color: #707070;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.footer p {
+    color: white;
+    margin: 0;
+}
